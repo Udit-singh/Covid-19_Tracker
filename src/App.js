@@ -1,17 +1,17 @@
-import React from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import React, { Component } from 'react';
+import Main from './components/MainComponent';
+import { BrowserRouter } from 'react-router-dom';
 
-class App extends React.Component {
+class App extends Component {
+  
   render() {
     return (
-      <div className="App">
-      <Navbar dark color="primary">
-        <div className="container">
-          <NavbarBrand href="/">Covid-19 Tracker</NavbarBrand>
-        </div>
-      </Navbar>
-    </div>
-    )
+      <BrowserRouter>
+       <div className="App">
+        <Main />
+      </div>
+      </BrowserRouter>
+    );
   }
 }
 
