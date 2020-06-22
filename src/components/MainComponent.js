@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Cards, Chart, CountryPicker } from '../components';
 import styles from '../App.module.css';
 import { fetchData } from '../api';
-import Header from './HeaderComponent';
+
 
 class Main extends React.Component {
     state = {
@@ -28,7 +28,6 @@ class Main extends React.Component {
 
       return (
         <div>
-            <Header />
         <div className={styles.container}>
             <Cards data={data} />
             <CountryPicker handleCountryChange={this.handleCountryChange} />

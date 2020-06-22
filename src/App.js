@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
 import Main from './components/MainComponent';
 import { BrowserRouter } from 'react-router-dom';
+import { HashRouter, Switch, Route , Redirect} from 'react-router-dom';
+import Aarogya from './components/arogya';
+import Country from './components/country'
+import Header from './components/HeaderComponent';
 
-class App extends Component {
-  
-  render() {
-    return (
-      <BrowserRouter>
-       <div className="App">
-        <Main />
+
+function App () {
+  return (
+    <HashRouter>
+      <div className='App'>
+      <Header />
+        <Switch>
+          <Route path='/' component={Main} exact />
+          <Route path='/app' component={Aarogya} />
+          <Route path='/country' component={Country} />
+          <Redirect to="/" />
+        </Switch>
       </div>
-      </BrowserRouter>
-    );
-  }
+    </HashRouter>
+  )
 }
 
-
-export default App;
+export default App

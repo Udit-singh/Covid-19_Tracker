@@ -56,13 +56,13 @@ class Header extends Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="/menu">
-                    <span className="fa fa-list fa-lg"></span> Menu
+                  <NavLink className="nav-link" to="/app">
+                    <span className="fa fa-list fa-lg"></span> Arogya Setu
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="/contactus">
-                    <span className="fa fa-address fa-lg"></span> Contact Us
+                  <NavLink className="nav-link" to="/country">
+                    <span className="fa fa-address fa-lg"></span> World Map
                   </NavLink>
                 </NavItem>
               </Nav>
