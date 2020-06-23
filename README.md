@@ -1,11 +1,13 @@
 # COVID_19 Tracker
 Check out the hosted project [here](/)
 
-![ ](https://raw.githubusercontent.com/Udit-singh/ToDoList/master/styles/Img/man.png)
+### Dashboard 
 
-## World Map 
+![ ](https://github.com/Udit-singh/Covid-19_Tracker/blob/master/src/components/images/main.png)
 
-![ ](https://raw.githubusercontent.com/Udit-singh/ToDoList/master/styles/Img/man.png)
+### World Map 
+
+![ ](https://github.com/Udit-singh/Covid-19_Tracker/blob/master/src/components/images/map.png)
 
 ## Project setup
 ```bash
