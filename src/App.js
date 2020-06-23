@@ -5,6 +5,7 @@ import { HashRouter, Switch, Route , Redirect} from 'react-router-dom';
 import Aarogya from './components/arogya';
 import Country from './components/country'
 import Header from './components/HeaderComponent';
+import FooterPage from './components/FooterPage';
 
 
 function App () {
@@ -18,9 +19,10 @@ function App () {
           <Route path='/country' component={Country} />
           <Redirect to="/" />
         </Switch>
+        <FooterPage />
       </div>
     </HashRouter>
   )
 }
 
-export default App
+export default App;

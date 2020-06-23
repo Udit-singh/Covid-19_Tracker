@@ -80,9 +80,8 @@ class Header extends Component {
            <div className="container">
                <div className="row row-header">
                    <div className="col-12 col-sm-6">
-                       <h1>Covid-19 Response</h1>
-                       <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
-Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.</p>
+                       <h1>COVID-19 Response</h1>
+                       <p>Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).[10] It was first identified in December 2019 in Wuhan, China, and has resulted in an ongoing pandemic.</p>
                    </div>
                </div>
            </div>
