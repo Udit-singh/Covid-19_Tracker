@@ -57,7 +57,7 @@ class Header extends Component {
                 </NavItem>
                 <NavItem>
                   <NavLink className="nav-link" to="/app">
-                    <span className="fa fa-list fa-lg"></span> Arogya Setu
+                    <span className="fa fa-list fa-lg"></span> Aarogya Setu
                   </NavLink>
                 </NavItem>
                 <NavItem>
