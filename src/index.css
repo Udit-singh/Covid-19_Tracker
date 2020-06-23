@@ -98,3 +98,17 @@ p.MuiTypography-root.MuiTypography-body1.MuiTypography-colorTextSecondary {
   pointer-events: none;
   background-color: #313030;
 }
+.title {
+  text-align: center;
+}
+.list-unstyled{
+  text-align: center;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #cacaca;
+}
