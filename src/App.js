@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Main from './components/MainComponent';
-import { BrowserRouter } from 'react-router-dom';
 import { HashRouter, Switch, Route , Redirect} from 'react-router-dom';
 import Aarogya from './components/arogya';
 import Country from './components/country'
