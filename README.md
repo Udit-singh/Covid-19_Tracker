@@ -1,5 +1,5 @@
 # COVID_19 Tracker
-Check out the hosted project [here](/)
+Check out the hosted project [here](https://covid19-response.netlify.app)
 
 ### Dashboard 
 
