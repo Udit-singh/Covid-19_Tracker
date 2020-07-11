@@ -35,3 +35,7 @@ with Node package manager.
 
 [MIT](http://opensource.org/licenses/MIT)
 Copyright (c) 2020-present, Udit Singh
+
+##### Made with ♥ by <a href="https://github.com/Udit-singh">Udit Singh</a>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Udit-singh)
